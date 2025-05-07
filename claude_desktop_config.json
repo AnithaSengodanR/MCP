@@ -1,0 +1,40 @@
+{
+    "mcpServers": {
+        "mcp-server-project": {
+            "command": "C:/Users/AnithaS/.local/bin/uv",
+            "args": [
+                "--directory",
+                "C:/Users/AnithaS/WorkItem/mcp-server-project/mcp-server-project",
+                "run",
+                "main.py"
+            ]
+        },
+		"mcp-server-cash": {
+            "command": "C:/Users/AnithaS/.local/bin/uv",
+            "args": [
+                "--directory",
+                "C:/Users/AnithaS/WorkItem/mcp-server-project/mcp-server-project",
+                "run",
+                "main_gbp.py"
+            ]
+        },
+    "mcp-server-weather": {
+            "command": "C:/Users/AnithaS/.local/bin/uv",
+            "args": [
+                "--directory",
+                "C:/Users/AnithaS/WorkItem/mcp-server-project/mcp-server-project",
+                "run",
+                "weather.py"
+            ]
+        },
+        "maryland-road-closures": {
+      "command": "C:/Users/AnithaS/.local/bin/uv",
+      "args": [
+        "--directory",
+        "C:/Users/AnithaS/WorkItem/mcp-server-project/maryland-road-closures",
+        "run",
+        "road_closures.py"
+      ]
+    }
+    }
+}
